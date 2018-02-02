@@ -1,0 +1,19 @@
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let driver of drivers">
+      <td>{{driver.id}}</td>
+      <td>{{driver.firstName}}</td>
+      <td>{{driver.lastName}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
